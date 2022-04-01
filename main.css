@@ -23,22 +23,16 @@ header::after {
   display: table;
   clear: both;
 }
- 
+ /* setting up website logo*/
 .logo {
   float: left;
   padding: 10px 0;
 }
- 
+ /* this will go to the right side*/
 nav {
   float: right;
 }
- 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
- 
+ /* setting up the right side position*/
 nav li {
   display: inline-block;
   margin-left: 70px;
@@ -46,18 +40,18 @@ nav li {
  
   position: relative;
 }
- 
+ /* Editing the text*/
 nav a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
 }
- 
+ /*the text will change color when we hover it */
 nav a:hover {
   color: #000;
 }
- 
+ /* setting the line above the text, it will appear when we hover it*/
 nav a::before {
   content: '';
   display: block;
@@ -70,7 +64,11 @@ nav a::before {
  
   transition: all ease-in-out 250ms;
 }
- 
+ /* the line will cover 100% of the text*/
 nav a:hover::before {
   width: 100%;
+}
+
+.container2 {
+  padding-left: 50%;
 }
