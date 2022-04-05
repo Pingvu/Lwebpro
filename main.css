@@ -2,9 +2,10 @@
 /* importing font */
 body {
   margin: 0;
-  background: rgb(218, 216, 216);
+  background: #5cdb95;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
+ 
 }
 /* editing the "body" */
  
@@ -15,7 +16,7 @@ body {
 /* editing the class called "container"*/
  
 header {
-  background: #55d6aa;
+  background-color: #5cdb95;
 }
  /* changing the head background color*/
 header::after {
@@ -27,6 +28,7 @@ header::after {
 .logo {
   float: left;
   padding: 10px 0;
+  color: #05386b;
 }
  /* this will go to the right side*/
 nav {
@@ -42,10 +44,10 @@ nav li {
 }
  /* Editing the text*/
 nav a {
-  color: #444;
+  color: #05386b;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
 }
  /*the text will change color when we hover it */
 nav a:hover {
@@ -70,5 +72,12 @@ nav a:hover::before {
 }
 
 .container2 {
-  padding-left: 50%;
+ text-align: center;
+ padding-top: 10%;
+ text-transform: uppercase;
+ 
+}
+.text1 {
+  color: #edf5e1;
+  font-size: 50px;
 }
