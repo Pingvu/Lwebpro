@@ -92,16 +92,26 @@ color: #05386b;
 margin: 20px;
 margin-bottom: 200px;
 }
+.main2 {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.main2 p {
+  color: #05386b;
+  font-size: 25px;
+}
 .Footer {
   background: #05386b;
   padding-bottom: 4rem;
-  padding-top: 4rem;
-  height: 25vh;
+  padding-top: 3rem;
+  height: 10vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  color: #d4af37;
+  color: #edf5e1;
 }
 .Footer_Header_1 {
   display: flex;
@@ -114,8 +124,8 @@ margin-bottom: 200px;
   margin-bottom: 2rem;
 }
 
-.Footer_Header_1 a {
-  color: #d4af37;
+.Footer_Header_1 p {
+  color: #edf5e1;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -134,8 +144,8 @@ margin-bottom: 200px;
   margin-bottom: 2rem;
 }
 
-.Footer_Header_2 a {
-  color: #d4af37;
+.Footer_Header_2 p {
+  color: #edf5e1;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -154,8 +164,8 @@ margin-bottom: 200px;
   margin-bottom: 2rem;
 }
 
-.Footer_Header_3 a {
-  color: #d4af37;
+.Footer_Header_3 p {
+  color: #edf5e1;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
