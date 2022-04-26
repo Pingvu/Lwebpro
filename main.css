@@ -11,7 +11,8 @@ body {
  
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin-left: 5%;
+  
 }
 /* editing the class called "container"*/
  
@@ -33,21 +34,27 @@ header::after {
  /* this will go to the right side*/
 nav {
   float: right;
+  white-space: nowrap;
+  
 }
+
  /* setting up the right side position*/
 nav li {
+  
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 12%;
   padding-top: 23px;
  
   position: relative;
 }
+
  /* Editing the text*/
 nav a {
   color: #05386b;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 100%;
+  
 }
  /*the text will change color when we hover it */
 nav a:hover {
@@ -84,7 +91,7 @@ nav a:hover::before {
 }
 .div1{
   display: flex;
-  padding-left: 33%;
+  justify-content: center;
 }
 .text2 {
 font-size: 35px;
@@ -92,32 +99,44 @@ color: #05386b;
 margin: 20px;
 margin-bottom: 200px;
 }
+
 .main2 {
-  text-align: center;
-  margin-left: 100px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  justify-content: center;
+  border-style: double;
+ text-align: center;
+ width: fit-content;
+ margin:auto;
+ margin-bottom: 5%;
+ border-color: #05386b;
+ border-width: 5px;
+}
+.main2 legend {
+  
+  font-size: 30px;
+  color: #05386b;
 }
 .main2 p {
   color: #05386b;
-  font-size: 25px;
+  font-size: 30px;
+  padding: 5px;
 }
 .Footer {
   background: #05386b;
   padding-bottom: 4rem;
   padding-top: 3rem;
-  height: 10vh;
+  height: 30%;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  
   margin: 0 auto;
   color: #edf5e1;
+  
 }
 .Footer_Header_1 {
   display: flex;
   flex-direction: column;
-  margin-right: 4rem;
-  font-size: 20px;
+  margin-right: 10%;
+  font-size: 100%;
 }
 
 .Footer_Header_1 h2 {
@@ -136,8 +155,9 @@ margin-bottom: 200px;
 .Footer_Header_2 {
   display: flex;
   flex-direction: column;
-  margin-right: 4rem;
-  font-size: 20px;
+  margin-right: 10%;
+  font-size: 100%;
+  
 }
 
 .Footer_Header_2 h2 {
@@ -156,8 +176,8 @@ margin-bottom: 200px;
 .Footer_Header_3 {
   display: flex;
   flex-direction: column;
-  margin-right: 4rem;
-  font-size: 20px;
+  margin-right: 10%;
+  font-size: 100%;
 }
 
 .Footer_Header_3 h2 {
