@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+/* importing font */
 *{
   padding: 0;
   margin: 0;
@@ -7,7 +8,13 @@
   box-sizing: border-box;
 } /* this will apply to the whole document*/
 
-
+/* editing the "body" */
+body {
+  margin: 0;
+  background: #5cdb95;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+}
 nav{
   background: #05386b;
   height: 80px;
@@ -19,7 +26,7 @@ nav{
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
-}
+} /* editing the website logo, changing the size, font and color */
 nav ul{
   float: right;
   margin-right: 20px;
