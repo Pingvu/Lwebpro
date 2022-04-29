@@ -1,82 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 /* importing font */
+/* editing the "body" */
 body {
   margin: 0;
   background: #5cdb95;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
- 
-}
-/* editing the "body" */
- 
-.container {
-  width: 80%;
-  margin-left: 5%;
-  
-}
-/* editing the class called "container"*/
- 
-header {
-  background-color: #5cdb95;
-}
- /* changing the head background color*/
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
- /* setting up website logo*/
-.logo {
-  float: left;
-  padding: 10px 0;
-  color: #05386b;
-}
- /* this will go to the right side*/
-nav {
-  float: right;
-  white-space: nowrap;
-  
 }
 
- /* setting up the right side position*/
-nav li {
-  
-  display: inline-block;
-  margin-left: 12%;
-  padding-top: 23px;
- 
-  position: relative;
-}
-
- /* Editing the text*/
-nav a {
-  color: #05386b;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 100%;
-  
-}
- /*the text will change color when we hover it */
-nav a:hover {
-  color: #000;
-}
- /* setting the line above the text, it will appear when we hover it*/
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #444;
- 
-  position: absolute;
-  top: 0;
-  width: 0%;
- 
-  transition: all ease-in-out 250ms;
-}
- /* the line will cover 100% of the text*/
-nav a:hover::before {
-  width: 100%;
-}
 
 .container2 {
  text-align: center;
@@ -89,6 +20,7 @@ nav a:hover::before {
   font-size: 80px;
   margin: 5px;
 }
+
 .div1{
   display: flex;
   justify-content: center;
@@ -100,13 +32,14 @@ margin: 20px;
 margin-bottom: 200px;
 }
 
+
 .main2 {
   justify-content: center;
   border-style: double;
  text-align: center;
  width: fit-content;
  margin:auto;
- margin-bottom: 5%;
+ margin-bottom: 10%;
  border-color: #05386b;
  border-width: 5px;
 }
@@ -124,12 +57,14 @@ margin-bottom: 200px;
   background: #05386b;
   padding-bottom: 4rem;
   padding-top: 3rem;
-  height: 30%;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   
   margin: 0 auto;
   color: #edf5e1;
+  margin-bottom: 0px;
   
 }
 .Footer_Header_1 {
@@ -189,3 +124,29 @@ margin-bottom: 200px;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
+
+@media (max-width: 858px) {
+  .text1{
+    color: #edf5e1;
+  font-size: 55px;
+  margin: 5px;
+  }
+   .text2 {
+font-size: 27px;
+color: #05386b;
+margin: 20px;
+margin-bottom: 100px;
+}
+.main2 legend {
+  
+  font-size: 20px;
+  color: #05386b;
+}
+.main2 p {
+  color: #05386b;
+  font-size: 20px;
+  padding: 5px;
+}
+
+}
+

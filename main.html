@@ -13,20 +13,24 @@
 <body>
   <!-- linking the css file so that it could apply to this document-->
   <link href="Main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="navbar.css">
   <header>
-    <div class="container">
-      <h1 class="logo">HLN</h1>
-
-      <nav>
-        <ol>
-          <li><a href="main.html">Home</a></li>
-          <li><a href="aboutme.html">css & html</a></li>
-          <li><a href="caculator.html">c#</a></li>
-          <li><a href="caculator.html">Java</a></li>
-          <li><a href="tabell.html">Game development</a></li>
-        </ol>
-      </nav>
-    </div>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label> <!-- Input and label in this case is to creat a checkbox for responsive design-->
+      <label class="logo">HLN</label>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="python.html">Python</a></li>
+        <li><a href="csharp.html">C#</a></li>
+        <li><a href="Css.html">Css & html </a></li>
+        <li><a href="java.html">Java</a></li>
+        <li><a href="Game.html">Game</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <div class="container2">
@@ -40,7 +44,7 @@
       <p class="text2">Technology </p>
     </div>
   </main>
-  
+
   <fieldset class="main2">
     <legend>Introduction</legend>
     <p>Are you interested in Programming? Are you looking for information about coding?</p>
