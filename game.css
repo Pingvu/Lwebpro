@@ -1,4 +1,26 @@
 .intro {
     justify-content: center;
     text-align: center;
+    margin-left: 33%;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    width: 500px;
+    margin-right: -25px;
+    z-index: 1;
+    height: 330px;
+    margin-top: 90px;
+}
+
+.gamedev {
+    background-color: #05386b;
+    height: 500px;
+    width: 500px;
 }
