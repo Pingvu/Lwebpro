@@ -56,5 +56,14 @@ margin-bottom: 30px;
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+ol {
+    margin: 30px;
+}
+ol li {
+    font-size: 20px;
+    margin: 5px;
+    color: #05386b;
 }
