@@ -1,12 +1,9 @@
 .intro {
-    
+    text-align: center;
   margin-bottom: 30px;
     color: #edf5e1;
     font-size: 75px;
     margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 30%;
-    margin-right: auto;
     text-transform: uppercase;
 }
 
@@ -31,6 +28,7 @@
     padding-top: 50px;
     padding-right: 50px;
     margin-bottom: 50px;
+    box-shadow: 12px 12px  rgb(53, 50, 50);
 }
 .gamedev p {
     color: #edf5e1;
@@ -67,3 +65,39 @@ ol li {
     margin: 5px;
     color: #05386b;
 }
+.unity{
+    background-color: #05386b;
+    height: 500px;
+    width: 550px;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    box-shadow: -12px 12px rgb(53, 50, 50);
+}
+.img2 {
+    width: 500px;
+    margin-left: -45px;
+    z-index: 1;
+    height: 330px;
+    margin-top: 90px;
+}
+.unity p {
+    color: #edf5e1;
+    font-size: 17px;
+    margin: 5px;
+}
+.unity h1 {
+    color: #edf5e1;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    }
+.unity h1 a {
+    color: #edf5e1;
+  }
+.unity h1 a:hover,a.active {
+    background-color: #05386b;
+    color: #5cdb95;
+}
+  
+ 
