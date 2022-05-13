@@ -15,14 +15,13 @@
 .img1 {
     width: 500px;
     margin-right: -45px;
-    z-index: 1;
     height: 330px;
     margin-top: 90px;
 }
 
 .gamedev {
     background-color: #05386b;
-    height: 500px;
+    height: 510px;
     width: 550px;
     padding-left: 70px;
     padding-top: 50px;
@@ -32,12 +31,11 @@
 }
 .gamedev p {
     color: #edf5e1;
-    font-size: 20px;
+    font-size: 17px;
     margin: 5px;
 }
 .gamedev h1 {
 color: #edf5e1;
-margin-top: 13px;
 margin-bottom: 30px;
 }
 .borderbox {
@@ -99,5 +97,60 @@ ol li {
     background-color: #05386b;
     color: #5cdb95;
 }
-  
- 
+.gamedev h1 a {
+    color: #edf5e1;
+}
+.gamedev h1 a:hover,a.active {
+    background-color: #05386b;
+    color: #5cdb95;
+}
+@media  (max-width: 858px) {
+    .intro {
+        font-size:  43px;
+    }
+    .img1 {
+        width:400px ;
+    }
+    .gamedev {
+        padding-top: 30px;
+        height: 500px;
+        padding-bottom: 30px;
+        padding-right: 40px;
+        width: 330px;
+        padding-left: 60px;
+    }
+    .gamedev h1{
+        font-size: 20px;
+    }
+    .borderbox h1{
+        font-size: 25px;
+    }
+    .unity {
+       padding-top: 30px;
+       padding-left: 45px;
+    }
+    .unity p {
+        font-size: 15px;
+    }
+}
+@media  (max-width: 688px){
+    .gamedev{
+        padding-top: 30px;
+        height: 350px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        width: 230px;
+        padding-left: 50px;
+    }
+    .gamedev h1 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+  .gamedev p{
+           font-size: 12px;
+  }
+  .img1 {
+      width: 250px;
+      height: 170px;
+  }
+}
