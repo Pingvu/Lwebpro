@@ -17,7 +17,7 @@ h3 {
     margin: 40px;
     color: #011c38;
 }
-p {
+.borderbox p {
     color: #05386b;
     margin: 20px;
     font-size: 20px;
@@ -29,16 +29,51 @@ h1 {
     margin: 40px;
     color: #011c38;
 }
-h2 {
+.borderbox h2 {
     margin: 20px;
     color: #05386b;
 }
 table, th, td{
     border:1px solid black;
     border-collapse: collapse;
+}
+table {
     width: 80%;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+tr:nth-child(odd) {
+    background-color: #05386b;
+    color: #edf5e1;
+}
+tr:nth-child(even) {
+    background-color: #edf5e1;
+    color: #05386b;
+}
+
+th {
+    padding: 20px;
+}
+@media (max-width: 858px) {
+    .borderbox img {
+        height: 300px;
+    }
+   .borderbox p {
+        font-size: 17px;
+    }
+}
+@media  (max-width: 688px){
+    .borderbox img {
+        height: 200px;
+    }
+    .borderbox p {
+        font-size: 14px;
+    }
+    tr{
+        font-size: 13px;
+    }
+}
+
+
