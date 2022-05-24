@@ -19,15 +19,60 @@ img {
 
 .title1 {
     color: #05386b;
-    margin-left: 250px;
-    margin-top: 100px;
+    margin-left: 25%;
+    margin-top: 10%;
 }
 
 .text1 {
     color: #05386b;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    margin-left: 250px;
+    margin-left: 25%;
     margin-right: 100px;
-    margin-top: 50px;
+    margin-top: 5%;
+}
+.title2 {
+    color: #05386b;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.text2 {
+    color: #05386b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-right: 25%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+audio {
+    margin-left: 15%;
+}
+@media (max-width: 880px) {
+    .grid-container {
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 500px 500px 500px;
+    }
+    .div1 {
+        margin-top: 500px;
+    }
+    .img1{
+        margin-top: -500px;
+    }
+}
+@media  (max-width: 688px){
+  .grid-container{
+      grid-template-rows: 400px 400px 400px 400px;
+  }
+  .div1 {
+    margin-top: 400px;
+}
+.img1{
+    margin-top: -400px;
+}
+.grid-container p {
+    font-size: 17px;
+}
+.grid-container h1 {
+    font-size: 25px;
+}
 }
