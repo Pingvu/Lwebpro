@@ -1,7 +1,7 @@
 .intro {
     text-align: center;
-  margin-bottom: 30px;
-    color: #edf5e1;
+    margin-bottom: 30px;
+    color: #05386b;
     font-size: 75px;
     margin-top: 30px;
     text-transform: uppercase;
@@ -13,7 +13,6 @@
 }
 
 .img1 {
-    
     width: 500px;
     margin-right: -45px;
     height: 330px;
@@ -21,7 +20,7 @@
 }
 
 .gamedev {
-     z-index: -1;
+    z-index: -1;
     background-color: #05386b;
     height: 510px;
     width: 550px;
@@ -29,26 +28,31 @@
     padding-top: 50px;
     padding-right: 50px;
     margin-bottom: 50px;
-    box-shadow: 12px 12px  rgb(53, 50, 50);
+    box-shadow: 12px 12px rgb(53, 50, 50);
 }
+
 .gamedev p {
     color: #edf5e1;
     font-size: 17px;
     margin: 5px;
 }
+
 .gamedev h1 {
-color: #edf5e1;
-margin-bottom: 30px;
+    color: #edf5e1;
+    margin-bottom: 30px;
 }
+
 .borderbox {
-    border: 1px rgba(218, 217, 217, 0.863) ridge ;
+    border: 1px rgba(218, 217, 217, 0.863) ridge;
     margin: 5%;
     background-color: #5cdb95;
 }
+
 .borderbox img {
     width: 100%;
     height: 300px;
 }
+
 .borderbox h1 {
     color: #05386b;
     margin-left: 50px;
@@ -60,13 +64,15 @@ margin-bottom: 30px;
 ol {
     margin: 30px;
 }
+
 ol li {
     font-size: 20px;
     margin: 5px;
     color: #05386b;
 }
-.unity{
-   z-index: -1;
+
+.unity {
+    z-index: -1;
     background-color: #05386b;
     height: 500px;
     width: 550px;
@@ -76,31 +82,31 @@ ol li {
     margin-bottom: 50px;
     box-shadow: -12px 12px rgb(53, 50, 50);
 }
+
 .img2 {
     width: 500px;
     margin-left: -45px;
-   
     height: 330px;
     margin-top: 90px;
 }
+
 .unity p {
     color: #edf5e1;
     font-size: 17px;
     margin: 5px;
 }
+
 .unity h1 {
     color: #edf5e1;
-   
     margin-bottom: 30px;
-    }
+}
 
-
-@media  (max-width: 858px) {
+@media (max-width: 858px) {
     .intro {
-        font-size:  43px;
+        font-size: 43px;
     }
     .img1 {
-        width:400px ;
+        width: 400px;
     }
     .gamedev {
         padding-top: 30px;
@@ -110,25 +116,24 @@ ol li {
         width: 330px;
         padding-left: 60px;
     }
-    .gamedev h1{
+    .gamedev h1 {
         font-size: 20px;
     }
     .gamedev p {
         font-size: 15px;
     }
-    .borderbox h1{
+    .borderbox h1 {
         font-size: 25px;
     }
     .unity {
-       padding-top: 30px;
-       padding-left: 30px;
-       height: 500px;
-       width: 330px;
-       padding-bottom: 20px;
+        padding-top: 30px;
+        padding-left: 30px;
+        height: 500px;
+        width: 330px;
+        padding-bottom: 20px;
     }
     .unity p {
         font-size: 15px;
-      
     }
     .unity h1 {
         margin-bottom: 15px;
@@ -138,8 +143,9 @@ ol li {
         width: 400px;
     }
 }
-@media  (max-width: 688px){
-    .gamedev{
+
+@media (max-width: 688px) {
+    .gamedev {
         padding-top: 30px;
         height: 350px;
         padding-bottom: 30px;
@@ -151,33 +157,33 @@ ol li {
         margin-bottom: 10px;
         font-size: 15px;
     }
-  .gamedev p{
-           font-size: 12px;
-  }
-  .img1 {
-      width: 250px;
-      height: 170px;
-  }
-  .borderbox img {
-      height: 200px;
-  }
-  .img2 {
-      width: 250px;
-      height: 170px;
-  }
-  .unity {
-    padding-top: 20px;
-    height: 350px;
-    padding-bottom: 30px;
-    padding-right: 50px;
-    width: 230px;
-    padding-left: 20px;
-  }
-  .unity h1 {
-    margin-bottom: 10px;
-    font-size: 15px;
-  }
-  .unity p {
-    font-size: 12px;
-  }
+    .gamedev p {
+        font-size: 12px;
+    }
+    .img1 {
+        width: 250px;
+        height: 170px;
+    }
+    .borderbox img {
+        height: 200px;
+    }
+    .img2 {
+        width: 250px;
+        height: 170px;
+    }
+    .unity {
+        padding-top: 20px;
+        height: 350px;
+        padding-bottom: 30px;
+        padding-right: 50px;
+        width: 230px;
+        padding-left: 20px;
+    }
+    .unity h1 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .unity p {
+        font-size: 12px;
+    }
 }
