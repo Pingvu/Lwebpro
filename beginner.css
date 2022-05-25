@@ -21,20 +21,29 @@ fieldset legend {
   }
   .flex {
       display: flex;
-      width: 90%;
+      width: 80%;
       margin: auto;
       height: 400px;
       margin-bottom: 100px;
   }
   .div1 {
-      background-color: #05386b; 
+      background-color: #81bbf5; 
+      width: 33%;
+  }
+  .div2 {
+      background-color: #3a9afa;
+      width:33%;
+  }
+  .div3 {
+      background-color:#2e91f4;
+      width:33%;
   }
   .flex h1{
       margin: 25px;
   }
   .flex a {
       border-radius: 3px;
-      text-decoration: underline;
+      
       color: #edf5e1;
   }
   .flex p {
