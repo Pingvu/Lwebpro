@@ -64,7 +64,7 @@ nav ul li a {
 }
 
 a.active,
-a:hover {
+a:hover { /* this will apply when you click or hover the link */
     background: #5cdb95;
     transition: .5s;
 }
@@ -82,7 +82,7 @@ a:hover {
 #check {
     display: none;
 }
-
+/* reponsive design */
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
@@ -137,7 +137,7 @@ a:hover {
     color: #edf5e1;
     margin-bottom: 0px;
 }
-
+ /* first column */
 .Footer_Header_1 {
     display: flex;
     flex-direction: column;
@@ -156,7 +156,7 @@ a:hover {
 }
 
 
-/* Andra Columnen*/
+/* second column*/
 
 .Footer_Header_2 {
     display: flex;
@@ -176,7 +176,7 @@ a:hover {
 }
 
 
-/* Tredje Columnen*/
+/* Third column*/
 
 .Footer_Header_3 {
     display: flex;
