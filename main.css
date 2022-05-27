@@ -44,7 +44,7 @@ margin-bottom: 200px;
   font-size: 30px;
   padding: 5px;
 }
-
+/* reponsive design */
 
 @media (max-width: 858px) {
   .text1{
