@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); <!-- Importing font -->
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); /* Importing font */
 fieldset{
-  <!-- Editing fieldset , changing size , text placement, border color-->
+  /* Editing fieldset , changing size , text placement, border color */
   border-style: double;
  text-align: center;
  width: fit-content;
@@ -11,25 +11,25 @@ fieldset{
  margin-top: 30px;
 }
 fieldset legend {
-  <!-- editing the text that stand over the border, changing its size and color-->
+  /* editing the text that stand over the border, changing its size and color */
     font-size: 30px;
     color: #05386b;
   }
   fieldset p {
-    <!-- editing the text inside the fieldset, changing its size and color-->
+    /* editing the text inside the fieldset, changing its size and color */
     color: #05386b;
     font-size: 30px;
     padding: 5px;
   }
   .flex {
-    <!-- creating a class, every element that has this tag will display horizontally-->
+    /* creating a class, every element that has this tag will display horizontally */
       display: flex;
       width: 80%;
       margin: auto;
       height: fit-content; 
       margin-bottom: 100px;
   }
-<!-- Creating three classess, which is essentially the same but with different color, these are for three-column layout-->
+/* Creating three classess, which is essentially the same but with different color, these are for three-column layout */
   .div1 {
       background-color: #81bbf5; 
       width: 33%;
@@ -42,7 +42,7 @@ fieldset legend {
       background-color:#2e91f4;
       width:33%;
   }
-<!-- editing the title, link, normal text inside the flex class-->
+/* editing the title, link, normal text inside the flex class */
   .flex h1{
       margin: 25px;
   }
@@ -56,7 +56,7 @@ fieldset legend {
       font-size: 20px;
       font-family: 'Montserrat', sans-serif;
   }
-<!-- reponsive design -->
+/* reponsive design */
   @media (max-width: 1180px) {
       .flex p {
           font-size: 17px;
@@ -71,7 +71,7 @@ fieldset legend {
   }
   @media (max-width: 720px){
       .flex {
-        <!-- the class flex will now display vertically instead -->
+        /* the class flex will now display vertically instead */
           flex-direction: column;
       }
       .div1 {
