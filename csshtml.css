@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 .borderbox {
+    /* creating a border,changing the color inside the border*/
     border: 1px rgba(135, 253, 99, 0.863) ridge ;
     margin: 5%;
     background-color: #5cdb95;
 }
 .borderbox img{
+    /* Center the image */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -12,6 +14,7 @@
     height: 400px;
    
 }
+/* editing the tile and normal text */
 h3 {
  
     margin: 40px;
@@ -33,6 +36,7 @@ h1 {
     margin: 20px;
     color: #05386b;
 }
+/* editing the table */
 table, th, td{
     border:1px solid black;
     border-collapse: collapse;
@@ -44,7 +48,7 @@ table {
     margin-right: auto;
     display: block;
 }
-tr:nth-child(odd) {
+tr:nth-child(odd) { 
     background-color: #05386b;
     color: #edf5e1;
 }
@@ -56,7 +60,8 @@ tr:nth-child(even) {
 th {
     padding: 20px;
 }
-@media (max-width: 858px) {
+/* reponsive design */
+@media (max-width: 858px) { 
     .borderbox img {
         height: 300px;
     }
