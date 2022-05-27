@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); /* importing font */
 .grid-container {
+    /* the contents will display as 2 columns and 2 rows */
     background-color: #5cdb95;
     grid-template-columns: 50% 50%;
     display: grid;
@@ -47,8 +48,10 @@ img {
 audio {
     margin-left: 15%;
 }
+/* reponsive design */
 @media (max-width: 880px) {
     .grid-container {
+        /* the content will now display as 1 column that cover the whole screen */
         grid-template-columns: 100%;
         grid-template-rows: 500px 500px 500px 500px;
     }
