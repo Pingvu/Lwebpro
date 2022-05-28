@@ -84,7 +84,7 @@ a:hover { /* this will apply when you click or hover the link */
 }
 /* reponsive design */
 @media (max-width: 858px) {
-    .checkbtn {
+    .checkbtn { /* the checkbox will now appear*/
         display: block;
     }
     ul {
