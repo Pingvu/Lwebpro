@@ -54,6 +54,25 @@
         <p>R/technology is a Subreddit dedicated to the news and discussions about the creation and use of technology and its surrounding issues. It had been around since 2008.</p>
         </div>
     </div>
+    <!--Creating a form which will ask what the user want to start with-->
+    <form>
+        <fieldset>
+            <legend>What do you want to start with?</legend>
+          <input type="radio" id="General-purpose" name="fav_language" value="General-purpose programming">
+          <label class="choice" for="General-purpose programming">General-purpose programming</label><br>
+          <input type="radio" id="Web" name="fav_language" value="Web design">
+          <label class="choice" for="Web design">Web design</label><br>
+          <input type="radio" id="Game" name="fav_language" value="Game development">
+          <label class="choice" for="Game development">Game development</label> <br>
+          <button class="submit" onclick="myFunction()">submit</button>
+    </fieldset>
+        </form> 
+        <!-- Javescript, this will open a alert box when you click submit-->
+        <script> 
+            function myFunction() {
+              alert("Thank you for your anwser, please look at the menu on the top to find what you want!");
+            }
+            </script>
 <!-- Creating footer for the page-->
     <footer class="Footer">
         <div class="Footer_Header_1">
